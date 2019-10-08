@@ -6,3 +6,4 @@ pytube==9.5.2
 pytz==2018.7
 sqlparse==0.3.0
 youtube-dl==2019.9.28
+psycopg2
