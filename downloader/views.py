@@ -73,7 +73,7 @@ def download_video(request):
                 'form': form,
                 'title': video.title, 'streams': video_audio_streams,
                 'stream_video': video_streams, 'stream_audio': audio_streams,
-                'thumb': video.bigthumbhd               
+                'thumb': video.bigthumbhd, 'video' : '1'
             }       
             return render(request, 'home.html', context)
         # 플레이리스트일 때 
