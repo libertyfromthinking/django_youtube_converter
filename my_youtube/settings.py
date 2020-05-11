@@ -25,7 +25,7 @@ SECRET_KEY = os.environ['YOUTUBE_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['freethinking.herokuapp.com']
+ALLOWED_HOSTS = ['freethinking.herokuapp.com','*']
 
 
 # Application definition
